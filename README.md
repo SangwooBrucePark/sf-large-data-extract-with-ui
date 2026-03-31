@@ -3,6 +3,8 @@
 A Windows desktop application for extracting large-scale data from Salesforce orgs.
 It solves the Salesforce SOQL `IN` clause size limit by splitting a large list of values into multiple batches and executing them automatically, one at a time, until the full keyword set has been processed.
 
+https://github.com/user-attachments/assets/211f4ace-604c-4319-9f99-9c90507efd24
+
 ---
 
 ## Overview
