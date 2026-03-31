@@ -43,7 +43,10 @@ The default extraction path is **Bulk API 2.0**. Alternative methods (`REST Quer
 
 No installer is needed.
 
-1. Download the latest release executable (`sf-largedataexport-standalone-v*.exe`).
+1. Download the latest release executable from the link below.
+
+   **[Download latest release](https://github.com/SangwooBrucePark/sf-large-data-extract-with-ui/releases/latest)**
+
 2. Place it in any directory on your Windows machine.
 3. Double-click to run.
 
