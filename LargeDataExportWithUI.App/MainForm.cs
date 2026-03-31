@@ -1,4 +1,5 @@
 using System.ComponentModel;
+using System.Reflection;
 using LargeDataExportWithUI.App.Models;
 using LargeDataExportWithUI.App.Services;
 
@@ -45,7 +46,9 @@ public sealed class MainForm : Form
 
     public MainForm()
     {
-        Text = "Large Data Export With UI";
+        var rawVersion = typeof(MainForm).Assembly.GetCustomAttribute<AssemblyInformationalVersionAttribute>()?.InformationalVersion ?? "unknown";
+        var version = rawVersion.Split('+')[0];
+        Text = $"Large Data Export For Salesforce - v{version}";
         MinimumSize = new Size(1200, 800);
         StartPosition = FormStartPosition.CenterScreen;
 
